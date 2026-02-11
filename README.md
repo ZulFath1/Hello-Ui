@@ -3,7 +3,7 @@
 Nama : Muhammad Dzul Fathi Ahyan <br>
 NIM  : 2410817210011 <br>
 ### Deskripsi  
-Aplikasi ini merupakan aplikasi dengan menggunakan bahasa pemrograman kotlin yang dilengkapi dengan fitur input nama dan akan menghasilkan output berupa "Halo, nama!" yang juga dilengkapi mode gelap dan terang<br>
+Aplikasi ini merupakan aplikasi dengan menggunakan bahasa pemrograman kotlin yang dilengkapi dengan fitur input nama dan akan menghasilkan output berupa "Hello, nama!" yang juga dilengkapi mode gelap dan terang<br>
 ### Cara Menjalankan
 Cara Menjalankan : 
 1. Clone repository ini menggunakan terminal atau CMD
