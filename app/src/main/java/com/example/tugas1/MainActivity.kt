@@ -56,7 +56,7 @@ fun UiApp(modifier : Modifier = Modifier, isDark: Boolean, onThemeChange: (Boole
             modifier = modifier.fillMaxWidth()
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(8.dp))
 
         Button(
             onClick = {
@@ -69,21 +69,21 @@ fun UiApp(modifier : Modifier = Modifier, isDark: Boolean, onThemeChange: (Boole
         ) {
             Text("Greeting")
         }
-        Spacer(modifier = Modifier.height(16.dp)) // Jarak kosong
+        Spacer(modifier = Modifier.height(16.dp))
 
         Text(
             text = greetingResult,
             style = MaterialTheme.typography.headlineMedium
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(8.dp))
 
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(text = if (isDark) "Dark Mode" else "Light Mode")
             Spacer(modifier = Modifier.width(8.dp))
             Switch(
                 checked = isDark,
-                onCheckedChange = { onThemeChange(it) } // Mengubah tema saat digeser
+                onCheckedChange = { onThemeChange(it) }
             )
         }
     }
